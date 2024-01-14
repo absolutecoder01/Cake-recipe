@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background: #FBEFEF;
+}
+header {
+    background-color: #6d0000;
+    height: 48px;
+    margin: 1px;
+}
+
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    margin: 1px;
+}
+#menu li a {
+    display: block;
+    background-color: #e63a3a;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 128px;
+}
+#menu a:link, ul a:visited {
+    display: block;
+    width: 138px;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu a:hover {   
+    background-color: #ec1e1e;
+}
+#zawartosc h1 {
+    color: red;
+    margin-top: 64px;
+    margin-left: 128px;
+    margin-bottom: 32px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#zawartosc p {
+    margin-left: 128px;
+    margin-bottom: 32px;
+}
+#zawartosc {
+    margin-left: 280px;
+}
+aside {
+    float: left;
+    margin-right: 0;
+}
+#skladniki img{
+    height: 235px;
+    width: 320px;
+}
+
+h4 {
+    width: 100px;
+    display: flex;
+    border-bottom: dashed red 3px ;
+}
+#przepisy {
+    display: none; 
+    position: relative;
+    
+}
+#inne_przepisy:hover #przepisy {
+    display: inline-block;
+}
